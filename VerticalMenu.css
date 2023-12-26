@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: chocolate;
+    width: 15%;
+    height: 100vh;
+}
+
+#cont{
+    list-style-type: none;
+    background-color:yellow;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: red;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: pink;
+    color: black;
+}
+/* --------- below li drop dropdown--------
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+    position: relative;
+    display: none;
+} */
+
+/* --------right side DropDown---- */
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+
+#drop:hover #menu{
+    display: block;
+}
+/* #iphone-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+   
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    display: none; 
+} */
+#iphone-menu{
+    background-color: aqua;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none; 
+
+}
+#iphone-drop{
+    position: relative;
+}
+#iphone-drop:hover #iphone-menu{
+    display: block;
+}
